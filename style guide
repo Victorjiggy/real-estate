@@ -1,0 +1,35 @@
+:root {
+    --yellow-color:yellow;
+    und-color: var(--white-color);
+    font-family: var(--main-font);
+}
+
+p{
+    font-size: 19px;
+}
+
+h1{
+    font-size: 36px; /*28px - 36px (can only use between this ranges)*/
+
+}
+
+h2{
+    font-size: 24px; /*20px - 24px*/ 
+}
+
+/*responsive style*/
+@media (max-width: 992px) {
+
+}
+ @media (max-width: 768px) {
+
+ }
+ @media (max-width: 576px) {
+
+ }
+
+style{
+    transition:0.7s ; /*we using 0.7s so that the transition will be noticeable*/
+} 
+
+/*i assume we have been imformed we are using the same ui design with the savills website but with slight changes we are goint to be using blue where ever yellow is used and yellow where red is used  and where u use ash being used use the,the brightash will be used for p , then where ash is used use darkash.  so we working with blue ,yellow,brightash and darkash   , 
