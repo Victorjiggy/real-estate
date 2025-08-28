@@ -1,6 +1,15 @@
 :root {
-    --yellow-color:yellow;
-    und-color: var(--white-color);
+    --yellow-color:rgb(252, 252, 84);
+    --blue-color:rgb(70, 70, 250);
+    --white-color:white;
+    --brightash-color:rgb(94, 94, 94);
+    --darkash-color:rgb(63, 63, 63);
+    --main-font: raleway;
+}
+
+/*example of how root is assigned;*/
+body{
+    background-color: var(--white-color);
     font-family: var(--main-font);
 }
 
